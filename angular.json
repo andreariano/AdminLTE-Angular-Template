@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "adminlte-app": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "adminlte-app"
+    }
+  },
+  "defaultProject": "adminlte-app",
+  "cli": {
+    "analytics": "471320ee-4849-4cc2-9e52-3fbad6e4cfb0"
+  }
 }
