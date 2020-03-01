@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  oidcAuthSettings: {
+    authority: '',
+    client_id: '',
+    redirect_uri: 'http://localhost:4200/auth-callback',
+    post_logout_redirect_uri: 'http://localhost:4200/',
+    response_type: "id_token token",
+    scope: '',
+    filterProtocolClaims: true,
+    loadUserInfo: false,
+    extraQueryParams: { resource: '' }
+  }
 };
 
 /*
